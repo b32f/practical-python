@@ -292,7 +292,7 @@ To add logging to an application, you need to have some mechanism to
 initialize the logging module in the main module.  One way to
 do this is to include some setup code that looks like this:
 
-```
+```python
 # This file sets up basic configuration of the logging module.
 # Change settings here to adjust logging output as needed.
 import logging
